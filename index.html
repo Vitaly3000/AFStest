@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Title</title>
+    <meta name="description" content="" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <meta property="og:image" content="path/to/image.jpg" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/favicon/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/favicon/apple-touch-icon-114x114.png"
+    />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+
+  <body>
+    <div class="modal">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <div class="modal__title">
+          Удалить карточку
+        </div>
+        <div class="modal__text">
+          Отправить карточку организации в архив?
+        </div>
+        <div class="modal__btns">
+          <button class="modal-cancel">ОТМЕНА</button>
+          <button class="modal-delete">УДАЛИТЬ</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="sidebar">
+        <ul class="sidebar__top">
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon1.svg" alt="" />
+          </li>
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon2.svg" alt="" />
+          </li>
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon3.svg" alt="" />
+          </li>
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon4.svg" alt="" />
+          </li>
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon5.svg" alt="" />
+          </li>
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon6.svg" alt="" />
+          </li>
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon7.svg" alt="" />
+          </li>
+        </ul>
+        <ul class="sidebar__bottom">
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon8.svg" alt="" />
+          </li>
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon9.svg" alt="" />
+          </li>
+          <li class="sidebar__item">
+            <img src="img/sidebar-icon10.svg" alt="" />
+          </li>
+        </ul>
+      </nav>
+      <div class="sidebar-menu">
+        <div class="sidebar-menu__title">
+          <h2>ЧЕСТНЫЙ АГЕНТ</h2>
+          <span>МЕНЕДЖЕР ПРОЦЕССА</span>
+        </div>
+        <div class="sidebar-menu__item">
+          <span><img src="img/sidebar-menu.svg" alt="" /></span>
+          Организации
+        </div>
+        <div class="sidebar-menu--overlay"></div>
+      </div>
+      <header class="header">
+        <h1 class="header__title">
+          К СПИСКУ ЮРИДИЧЕСКИХ ЛИЦ
+        </h1>
+        <div class="header__btn">
+          <img src="img/chain.svg" alt="" />
+          <img src="img/history.svg" alt="" />
+          <img class="open-modal" src="img/Delete.svg" alt="" />
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__title">
+          <h2>Перспективные захоронения</h2>
+          <img src="img/Edit.svg" alt="" />
+        </div>
+        <div class="main__block">
+          <div class="main__block-items">
+            <ul class="main__item">
+              <div class="main__item-title">
+                <h2>ОБЩАЯ ИНФОРМАЦИЯ</h2>
+                <img src="img/Edit.svg" alt="" />
+              </div>
+              <li>
+                <span>Полное название:</span>
+                <div class="main__item-text">
+                  ООО Фирма “Перспективные захоронения”
+                </div>
+              </li>
+              <li>
+                <span>Договор:</span>
+                <div class="main__item-text">
+                  12345 от 12.03.2015, расторгнут 20.05.2017
+                </div>
+              </li>
+              <li>
+                <span>Форма:</span>
+                <div class="main__item-text">
+                  ООО
+                </div>
+              </li>
+              <li>
+                <span>Тип:</span>
+                <div class="main__item-text">
+                  Агент, Подрядчик
+                </div>
+              </li>
+            </ul>
+            <ul class="main__item">
+              <div class="main__item-title">
+                <h2>КОНТАКТНЫЕ ДАННЫЕ</h2>
+                <img src="img/Edit.svg" alt="" />
+              </div>
+              <li>
+                <span>ФИО:</span>
+                <div class="main__item-text">
+                  Григорьев Сергей Петрович
+                </div>
+              </li>
+              <li>
+                <span>Телефон:</span>
+                <div class="main__item-text">
+                  <a class="phone" href="tel:+79162165588"
+                    >+7 (916) 216-55-88</a
+                  >
+                </div>
+              </li>
+              <li>
+                <span>Эл. почта:</span>
+                <div class="main__item-text">
+                  <a class="email" href="mailto:grigoriev@funeral.com"
+                    >grigoriev@funeral.com</a
+                  >
+                </div>
+              </li>
+            </ul>
+            <ul class="main__item">
+              <div class="main__item-title">
+                <h2>АДРЕСА И ТЕЛЕФОНЫ</h2>
+                <img src="img/Edit.svg" alt="" />
+              </div>
+              <li>
+                <span>Юр. адрес:</span>
+                <div class="main__item-text">
+                  105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312
+                </div>
+              </li>
+              <li>
+                <span>Юр. телефон::</span>
+                <div class="main__item-text">
+                  <a class="phone" href="tel:+74953455588"
+                    >+7 (495) 345-55-88</a
+                  >
+                </div>
+              </li>
+              <li>
+                <span>Фактич. адрес::</span>
+                <div class="main__item-text">
+                  105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312
+                </div>
+              </li>
+              <li>
+                <span>Телефон:</span>
+                <div class="main__item-text">
+                  <a class="phone" href="tel:+79162165588"
+                    >+7 (916) 216-55-88</a
+                  >
+                </div>
+              </li>
+            </ul>
+            <ul class="main__item">
+              <div class="main__item-title">
+                <h2>РЕКВИЗИТЫ ОРГАНИЗАЦИИ</h2>
+                <img src="img/Edit.svg" alt="" />
+              </div>
+              <li>
+                <span>БИК:</span>
+                <div class="main__item-text">
+                  044525225
+                </div>
+              </li>
+              <li>
+                <span>Банк:</span>
+                <div class="main__item-text">
+                  ПАО СБЕРБАНК
+                </div>
+              </li>
+              <li>
+                <span>Р/С:</span>
+                <div class="main__item-text">
+                  4070 2810 0000 9000 1425
+                </div>
+              </li>
+              <li>
+                <span>К/С:</span>
+                <div class="main__item-text">
+                  3010 1810 5403 0000 0795 БИК 044 030 795
+                </div>
+              </li>
+              <li>
+                <span>ИНН:</span>
+                <div class="main__item-text">
+                  1001254535
+                </div>
+              </li>
+              <li>
+                <span>КПП:</span>
+                <div class="main__item-text">
+                  773101001
+                </div>
+              </li>
+              <li>
+                <span>ОГРН:</span>
+                <div class="main__item-text">
+                  1053600591197
+                </div>
+              </li>
+              <li>
+                <span>Ген. директор:</span>
+                <div class="main__item-text">
+                  Степаненко Игорь Яковлевич
+                </div>
+              </li>
+            </ul>
+            <div class="main__item">
+              <div class="main__item-title">
+                <h2>ПРИЛОЖЕННЫЕ ФАЙЛЫ</h2>
+              </div>
+              <div class="file">
+                <img src="img/text-icon1.svg" alt="" />
+                <div class="file__text">
+                  <span>Договор ЗН 1234-4567.pdf</span>
+                  Файл PDF, 1.2 МБ
+                </div>
+              </div>
+              <div class="file">
+                <img src="img/text-icon2.svg" alt="" />
+                <div class="file__text">
+                  <span>Фотографии счета на оп...</span>
+                  Файл ZIP, 200 КБ
+                </div>
+              </div>
+              <div class="file">
+                <img src="img/text-icon2.svg" alt="" />
+                <div class="file__text">
+                  <span>Документы за декабрь.zip</span>
+                  Файл ZIP, 200 КБ
+                </div>
+              </div>
+              <button class="file__button">
+                ДОБАВИТЬ ФАЙЛ
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <span>© 1992 - 2020 Честный Агент © Все права защищены. </span>
+        <a class="footer__phone" href="tel:+84951502112">8 (495) 150-21-12</a>
+      </footer>
+    </div>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
